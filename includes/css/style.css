@@ -1,0 +1,294 @@
+/*
+
+My Custom CSS
+=.============ {
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#successAlert {
+  display: none;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+#call {
+  margin-top: 20px;
+}
+
+#modal-close-button {
+  z-index: 999;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.closeWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+}
+
+.navbar ul a:hover{
+  background: none;
+  text-decoration: underline;
+}
+
+.buzzpic img {
+  width: 100%;
+}
+
+.navbar ul a:focus{
+  background: none;
+  text-decoration: underline;
+}
+
+.navbar-header a{
+  font-size: 32px;
+  font-family: 'Emblema One', cursive;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+.navbar ul, h2, p{
+  font-family: sans-serif;
+}
+
+
+
+.section-heading {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  margin: 30px 0;
+}
+
+.section-heading h1{
+  font-size: 101.5px;
+  font-weight: bold;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput {
+     width: 150px;
+     display: inline;
+   }
+
+  .search-btn  {
+     margin-right: 5px;
+   }
+
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+  #modalCarousel1-slide1 {
+    background: url("../images/martini1.jpg")  center no-repeat;
+  }
+  #modalCarousel1-slide2 {
+    background: url("../images/martini2.jpg") center no-repeat;
+  }
+
+  #modalCarousel2-slide1 {
+    background: url("../images/mojito1.jpg") center no-repeat;
+  }
+  #modalCarousel2-slide2 {
+    background: url("../images/mojito2.jpg") center no-repeat;
+  }
+
+
+  .drink .item {
+    height: 450px;
+    width; auto;
+  }
+  #drinks button.close {
+    color: white;
+    opacity: 1;
+  }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+  hr{
+    border-top:22px  solid white;
+  }
+
+  .buzztext {
+    text-align: center;
+    border: solid 1px transparent;
+    font-size:   18px;
+  }
+
+
+  #buzzText1 {
+      background-color: #ff96ca;
+  }
+
+  #buzzText2 {
+    background-color: #fc7e04;
+  }
+  .drink img{
+    width: 350px;
+  }
+
+   .thumbnail {
+    position: relative;
+   }
+
+   .thumbnail h3 {
+   	font-size: 16px;
+   	margin: 0 0 10px;
+   	line-height: 20px;
+   }
+
+   .thumbnail .price {
+   	font-size: 22px;
+   	position: absolute;
+   	top: -10px;
+   	right: -10px;
+   	padding: 10px;
+   }
+
+   .thumbnail .price sup {
+   	font-weight: normal;
+   	font-size: 12px;
+   }
+
+   .thumbnail span.glyphicon {
+   	margin-right: 5px;
+   }
+
+  #heroShow .item {
+    height: 635px;
+    width: auto;
+  }
+
+
+  #slide1 {
+    background: url("../images/jd2-md.jpg") top center no-repeat;
+
+  }
+
+  #slide2 {
+    background: url("../images/jd4-md.jpg") top center no-repeat;
+
+  }
+  #slide3 {
+    background: url("../images/jd5-md.jpg") top center no-repeat;
+
+  }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .thumbnail .price {
+		font-size: 14px;
+	}
+
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px){
+
+
+
+  .section-heading h1{
+    font-size: 87.5px;
+    font-weight: bold;
+  }
+
+  #heroShow .item {
+     height: 492px;
+     width: auto;
+   }
+
+  #slide1 {
+    background: url("../images/jd2-sd.jpg") top center no-repeat;
+
+  }
+
+  #slide2 {
+    background: url("../images/jd4-sd.jpg") top center no-repeat;
+
+  }
+  #slide3 {
+    background: url("../images/jd5-sd.jpg") top center no-repeat;
+
+  }
+
+  .drink img{
+    width: 290px;
+  }
+
+
+
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    #heroShow .item {
+    height: 768px;
+    width; auto;
+  }
+
+  #slide1 {
+    background: url("../images/jd2.jpg") top center no-repeat;
+
+  }
+
+  #slide2 {
+    background: url("../images/jd5.jpg") top center no-repeat;
+
+  }
+  #slide3 {
+    background: url("../images/jd4.jpg") top center no-repeat;
+
+  }
+
+
+}

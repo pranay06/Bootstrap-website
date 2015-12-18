@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Madira</title>
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="includes/css/style.css">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script type="text/javascript" src="includes/js/modernizr-2.6.2.min.js">
+
+    </script>
+    <!-- Linking for Header-brand -->
+    <link href='https://fonts.googleapis.com/css?family=Emblema+One' rel='stylesheet' type='text/css'>
+
+    <!-- lINKING FOR SECTION HEADINGS -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!-- start #main.container -->
+    <div class="container-fluid" id="main">
+      <!-- start .navbar navbar-fixed-top -->
+      <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="row">
+              <div class="navbar-header col-md-3">
+                <a href="#" class="navbar-brand">
+                  Madira
+                </a>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+                  <span class="glyphicon glyphicon-chevron-down">
+                  </span>
+                </button>
+              </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse visible-sm-*" id="nav" >
+              <!-- start #search.navbar-form navbar-left -->
+              <form class=" text-center navbar-form navbar-right col-md-3" id="search">
+                <input type="text" class="form-control" placeholder="Search" id="searchInput">
+                <button type="submit" class=" search-btn btn btn-default">
+                  <span class="glyphicon glyphicon-glass">
+                  </span>
+                </button>
+              </form><!-- end #search.navbar-form navbar-left -->
+                <div class="menu col-md-6" >
+                  <ul class="nav navbar-nav ">
+                    <li>
+                      <a href="#">About</a>
+                    </li>
+
+                    <li>
+                      <a href="#">  Products</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Drinks</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Nights</a>
+                    </li>
+                    <li>
+                      <a href="#">News</a>
+                    </li>
+
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </nav><!-- end .navbar navbar-fixed-top -->
+
+      <!-- start #heroShow.row carousel-slide -->
+      <!-- start #heroRow.row -->
+      <div class="row" id="heroRow">
+        <div class="carousel slide" id="heroShow">
+          <ol class="carousel-indicators">
+  		      <li class="active" data-slide-to="0" data-target="#heroShow"></li>
+  		      <li data-slide-to="1" data-target="#heroShow"></li>
+  		      <li data-slide-to="2" data-target="#heroShow"></li>
+		      </ol>
+          <!-- start .carousel-inner -->
+          <div class="carousel-inner">
+
+            <!-- start #slide1.item-active -->
+            <div class="item active" id="slide1">
+              <!-- start .carousel-caption -->
+              <div class="carousel-caption">
+                <!-- <h4>Turn it on</h4> -->
+              </div><!-- end .carousel-caption -->
+            </div><!-- end #slide1.item-active -->
+
+            <!-- start #slide2.item-active -->
+            <div class="item" id="slide2">
+              <!-- start .carousel-caption -->
+              <div class="carousel-caption">
+                <!-- <h4>Turn it on</h4> -->
+              </div><!-- end .carousel-caption -->
+            </div><!-- end #slide1.item-active -->
+
+            <!-- start #slide3.item-active -->
+            <div class="item" id="slide3">
+              <!-- start .carousel-caption -->
+              <div class="carousel-caption">
+                <!-- <h4>Turn it on</h4> -->
+              </div><!-- end .carousel-caption -->
+            </div><!-- end #slide1.item-active -->
+
+
+          </div><!-- end .carousel-inner -->
+          <a href="#heroShow" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+		      <a href="#heroShow" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+        </div><!-- end #heroShow.row carousel-slide -->
+      </div><!-- end #heroRow.row -->
+    </div><!-- end #main.container -->
+
+    <!-- start #content.conteiner-->
+    <div class="container" id="content">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="well well-small visible-xs visible-sm visible-md" id="call">
+            <a href="#" class="href btn btn-block btn-success">
+              <span class="glyphicon glyphicon-phone"></span>
+              Give us a call</a>
+          </div>
+        </div><!-- end .col-12 -->
+      </div>
+
+      <!-- start #drinks.row -->
+      <div class="row" id="drinks">
+        <div class="col-md-12 section-heading">
+          <h1>Drinks</h1>
+        </div>
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+          <a href="#modalCarousel1" role="button" data-toggle="modal">
+            <img src="includes/images/panel1-sd.jpg" class = "img-circle " alt="drink 1">
+            <!-- <img src="includes/images/panel1-sd.jpg" class = "img-circle visible-sm-block" alt="drink 1"> -->
+          </a>
+            <p><h2>Martini</h2></p>
+          </div>
+          <!-- start #modalCarousel1.modal fade -->
+          <div class="modal fade" id="modalCarousel1">
+            <!-- start .modal-dialog -->
+            <div class="modal-dialog">
+              <!-- start .modal-content -->
+              <!-- start .carousel slide -->
+
+              <div class="closeWrap">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modal-close-button"><span aria-hidden="true">&times;</span></button>
+
+              </div>
+
+                <!-- <button class="close" data-dismiss="modal">&times</button> -->
+
+              <div class="carousel slide" id="modalCarousel1-slider">
+                <!-- start .carousel-inner -->
+                <div class="carousel-inner">
+                  <!-- start #slide1.item active -->
+                  <div class="item active" id="modalCarousel1-slide1">
+
+                  </div><!-- end #slide1.item active -->
+
+                  <div class="item " id="modalCarousel1-slide2">
+
+                  </div><!-- end #slide1.item active -->
+
+                </div><!-- end .carousel-inner -->
+
+                <a class="left carousel-control" data-slide="prev" href="#modalCarousel1-slider"><span class="icon-prev"></span></a>
+        				<a class="right carousel-control" data-slide="next" href="#modalCarousel1-slider"><span class="icon-next"></span></a>
+              </div><!-- end .carousel slide -->
+            </div><!-- end .modal-dialog -->
+          </div><!-- end #modalCarousel1.modal fade -->
+
+        </div>
+
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+
+              <a href="#modalCarousel2" role="button" data-toggle="modal">
+                <img src="includes/images/panel2-sd.jpg" class = "img-circle " alt="drink 1">
+
+            </a>
+
+            <div class="modal fade" id="modalCarousel2">
+              <!-- start .modal-dialog -->
+              <div class="modal-dialog">
+                <!-- start .modal-content -->
+                <!-- start .carousel slide -->
+                <div class="closeWrap">
+                  <button class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="carousel slide" id="modalCarousel2-slider">
+                  <!-- start .carousel-inner -->
+                  <div class="carousel-inner">
+                    <!-- start #slide1.item active -->
+                    <div class="item active" id="modalCarousel2-slide1">
+
+                    </div><!-- end #slide1.item active -->
+
+                    <div class="item " id="modalCarousel2-slide2">
+
+                    </div><!-- end #slide1.item active -->
+
+                  </div><!-- end .carousel-inner -->
+
+                  <a class="left carousel-control" data-slide="prev" href="#modalCarousel2-slider"><span class="icon-prev"></span></a>
+          				<a class="right carousel-control" data-slide="next" href="#modalCarousel2-slider"><span class="icon-next"></span></a>
+                </div><!-- end .carousel slide -->
+              </div><!-- end .modal-dialog -->
+            </div><!-- end #modalCarousel1.modal fade -->
+
+            <p><h2>Mojito</h2></p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+            <img src="includes/images/panel3-sd.jpg" class = " img-circle " alt="drink 1">
+            <!-- <img src="includes/images/panel3-sd.jpg" class = " img-circle visible-sm-block" alt="drink 1"> -->
+            <p><h2>Margarita</h2></p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+            <img src="includes/images/panel4-sd.jpg" class = "img-circle " alt="drink 1">
+            <!-- <img src="includes/images/panel4-sd.jpg" class = "img-circle visible-sm-block" alt="drink 1"> -->
+            <p><h2>High Ball</h2></p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+            <img src="includes/images/panel5-sd.jpg" class = "img-circle " alt="drink 1">
+            <!-- <img src="includes/images/panel5-sd.jpg" class = "img-circle visible-sm-block" alt="drink 1"> -->
+            <p><h2>Long Island</h2></p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 drink">
+          <div class="panel text-center">
+            <img src="includes/images/panel6-sd.jpg" class = "img-circle" alt="drink 1">
+
+            <p><h2>Gin and Tonic</h2></p>
+          </div>
+        </div>
+      </div><!-- end #drinks.row -->
+  </div><!-- end #content.conteiner -->
+
+  <!-- start .container -->
+  <section class="container buzz">
+    <div class="row buzzHeading">
+      <div class="col-md-12 section-heading">
+        <!-- <div class="row buzzSection" > -->
+        <h1>Buzz</h1>
+      </div>
+    </div>
+    <div class="row buzzSection" >
+      <!-- start #buzzSection.row -->
+        <div class="col-md-6 buzzpic">
+          <img src="includes/images/buzz2.jpg" alt="Let Loose" class="img-responsive">
+        </div>
+
+        <!-- start .col-xs-6 buzzText -->
+        <div class="col-md-6 ">
+          <div id ="buzzText1" class="buzztext">
+            <h1><strong>Let loose</strong></h1>
+
+            <p>Design is at the heart of everything we do - and it's this month's talking point, too.</p>
+
+            <P>May is set to be a hive of creativity thanks to a series of colorful events, from vibrant art exhibitions like The Venice Biennale to the rainbow infused Gay Pride.</P>
+
+            <p>It's time for transformation.</p>
+          </div>
+        </div><!-- end .col-xs-6 buzzText -->
+
+      </div>
+  </section><!-- end .container -->
+
+    <hr>
+
+  <!-- start .container -->
+  <section class="container buzz">
+      <div class="row buzzSection" >
+        <div class="col-md-6 ">
+          <div id="buzzText2" class="buzztext">
+          <p><h1><strong>Let loose</strong></h1></p>
+
+          <p>Design is at the heart of everything we do - and it's this month's talking point, too.</p>
+
+          <P>May is set to be a hive of creativity thanks to a series of colorful events, from vibrant art exhibitions like The Venice Biennale to the rainbow infused Gay Pride.</P>
+
+          <p>It's time for transformation.</p>
+        </div>
+        </div><!-- end .col-xs-6 buzzText -->
+
+        <div class="col-md-6 buzzpic">
+          <img src="includes/images/28fE_Pua8.jpg " class="img-responsive" alt="Let Loose" >
+        </div>
+
+
+      </div>
+</section><!-- end .container -->
+
+  <!-- start .container -->
+  <section class="container">
+      <!-- start #product.row -->
+      <div class="row" id="productSection">
+
+        <div class="col-md-12 section-heading">
+          <h1>Products</h1>
+        </div>
+
+
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <img src="../includes/images/thumbnail6.jpg" class="img-responsive" alt="thumnail1">
+              <div class="label label-success price">
+                <span class="glyphicon glyphicon-tag">
+                  <sup>$</sup>39
+                </span>
+              </div>
+            <!-- start .caption -->
+            <div class="caption">
+              <p><h2>Jack Daniels <small>80 years old</small></h2>
+
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star-empty "></span>
+                <span class="glyphicon glyphicon-star-empty "></span>
+              </p>
+              <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</p>
+              <p><a href="" class="btn btn-primary btn-small " id="rate">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Dive more</a></p>
+            </div><!-- end .caption -->
+          </div><!-- end thumbnail -->
+        </div>
+
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="../includes/images/thumnail7.jpg" class="img-responsive" alt="thumnail1">
+            <div class="label label-success price">
+              <span class="glyphicon glyphicon-tag">
+                <sup>$</sup>39
+              </span>
+            </div>
+
+            <!-- start .caption -->
+            <div class="caption">
+              <p><h2>Jack Daniels <small>50 years old</small></h2>
+
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star-empty "></span>
+                <span class="glyphicon glyphicon-star-empty "></span>
+              </p>
+              <p>Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing</p>
+              <p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Dive more</a></p>
+            </div><!-- end .caption -->
+          </div><!-- end thumbnail -->
+        </div><!-- end wrap -->
+
+      </div><!-- start #product.row -->
+    </section><!-- end .container -->
+
+    <section class="alert alert-success alert-block fade in" id="successAlert">
+    <button type="button" class="close" data-hide="alert">&times;</button>
+
+    <h4>You can not rate it</h4>
+  </section><!-- end alert -->
+
+    <footer class="navbar navbar-inverse hidden-xs " id="contactusforlgandmddevices"><!--footer started -->
+       <div class="container-fluid">
+          <div class="col-sm-4"><!--address started -->
+             <address class="navbar-text pull-left">
+                13 Main, BTM Layout Stage, Bangalore-560035
+             </address>
+          </div><!--addrees ended -->
+          <div class="col-sm-2"><!--phone number -->
+             <a href="tel:+91-9891624354" class="navbar-text pull-left">9891624354</a>
+          </div>
+          <div class="col-sm-3"><!--email-id -->
+             <a href="mailto:pranaygandhi1993@live.com" class="navbar-text pull-left">abc@live.com</a>
+          </div>
+          <div class="col-sm-3">
+             <a href="http://facebook.com" target="_blank" class="navbar-btn btn-primary btn pull-right" > <span class="glyphicon glyphicon-thumbs-up"></span> Us at FACEBOOK</a>
+          </div>
+       </div>
+    </footer>
+    <footer class="well visible-xs " id="contactusforsmalldevices"><!--footer started for small devices -->
+       <a href="" class="btn btn-large btn-block btn-success" data-toggle="modal" data-target="#contactmodal"><span class="glyphicon glyphicon-edit"></span>WE ARE LISTNING</a>
+       <!-- Modal -->
+       <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="address"><!--modal for address started -->
+             <div class="modal-content">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                   <h4 class="modal-title" id="myModalLabel">REACH US AT</h4>
+                </div>
+                <div class="modal-header">
+
+                   <div class="container-fluid">
+                      <div class="col-xs-12">
+                         <address class="navbar-text"><!--address started -->
+                            13 Main, <a href="" data-original-title="It is an awesome place" rel="tooltip">BTM</a> Layout Stage, Bangalore-560035
+                         </address>
+                      </div>
+                      <div class="col-xs-12"><!--phone number -->
+                         <a href="tel:+91-9891624354" class="navbar-text">9891624354</a>
+                      </div>
+                      <div class="col-xs-12"><!--email-id started -->
+                         <a href="mailto:pranaygandhi1993@live.com" class="navbar-text">pranaygandhi1993@live.com</a>
+                      </div>
+                      <div class="col-xs-12"><!--facebook link-->
+                         <a href="http://facebook.com" target="_blank" class="navbar-btn btn-info btn" > <span class="glyphicon glyphicon-tag"></span>Us at FACEBOOK</a>
+                      </div>
+                   </div>
+                   <!-- end container -->
+                </div><!-- end modal-header -->
+                <div class="modal-body"><!--google maps -->
+                  <div class="tabbable">
+                   <ul class="nav nav-tabs">
+                     <li class="active"><a href="#tab1" data-toggle="tab">Map</a></li>
+                     <li><a href="#tab2" data-toggle="tab">Directions</a></li>
+                   </ul>
+                   <div class="tab-content">
+                     <div class="tab-pane active" id="tab1">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.360742702898!2d77.60136351495763!3d12.884509690913056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14fdcef40a75%3A0xfebc2cc15b32682!2sUdupi+Garden!5e0!3m2!1sen!2sin!4v1450381545637"  frameborder="0" allowfullscreen ></iframe>
+
+                     </div><!-- end tab-pane -->
+
+                     <div class="tab-pane" id="tab2">
+
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                     </div><!-- end tab-pane -->
+                   </div><!-- end tab-content -->
+                  </div><!-- end tabbable -->
+                </div>
+                <div class="modal-footer">
+                   <a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="Thanks!" data-content="If you want more info just call us">More info?</a>
+                   <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+
+                </div>
+             </div><!-- modal-content -->
+          </div><!-- modal-dialog -->
+       </div><!-- end modal -->
+    </footer><!-- end well -->
+
+
+
+
+
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+  </body>
+</html>
